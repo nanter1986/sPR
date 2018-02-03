@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://istoselida-chania.club/sitemap.xml

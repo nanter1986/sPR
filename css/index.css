@@ -1,0 +1,186 @@
+body {
+  background-image: url("../img/jungle.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 65px;
+  font-size: 22px;
+  font-family: Impact;
+}
+
+.navbar-inverse {
+  background-color: rgba(7, 54, 19, 0.69);
+  font-size: 16px;
+}
+
+.navbar-nav>li {
+  border-left: solid black 2px;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.carousel-caption {
+  background: #1e1e1ee6;
+  color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.panel {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 0px !important;
+  border: none !important;
+  background-image: url("../img/survivor-2018.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.panel-body {
+  padding: 0px;
+}
+
+iframe {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.row {
+  margin: 0px;
+}
+
+p {
+  text-indent: 20px;
+}
+
+#eidikes {
+  width: 100%;
+}
+
+#poioi {
+  background-color: #141212b3;
+  background-image: url("../img/shop.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  padding: 0px;
+}
+
+
+
+.panel-body, .panel-title, .panel-default, .panel-title {
+  background-color: rgba(7, 54, 19, 0.69);
+  color: #dde4e7;
+}
+
+.panel-title {
+  background-color: #0000;
+}
+
+.panel-body {
+  background-color: rgba(7, 54, 19, 0.69);
+  vertical-align:middle;
+}
+
+.panel-heading {
+  color: #ebf0f2 !important;
+  font-weight: bold !important;
+  background-color: rgb(5, 50, 8) !important;
+  border: none !important;
+  transition: background-color 4s;
+}
+
+.panel-heading:hover {
+  background-color: grey !important;
+  transition: background-color 4s;
+}
+
+.logoi>img {
+  width: 100%;
+}
+
+#facebookIcon {
+  width: 10%;
+  height: auto;
+}
+
+p {
+  text-align: left;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.hoverable {
+  padding: 0px;
+  transition: padding 1s;
+}
+
+.hoverable:hover {
+  padding: 20px;
+  transition: padding 1s;
+}
+
+
+
+#back2Top {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: rgb(5, 50, 8);
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+}
+
+#back2Top:hover {
+  background-color: rgba(7, 54, 19, 0.69);
+  /* Add a dark-grey background on hover */
+}
+
+.panel-info{
+  padding:0px;
+}
+
+.boards{
+
+}
+
+.scoreDisplay{
+  margin:auto !important;
+}
