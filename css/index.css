@@ -182,5 +182,13 @@ h1, h2, h3 {
 }
 
 .scoreDisplay{
-  margin:auto !important;
+    font-size:40px;
+}
+
+@media screen and (max-width : 480px)
+{
+  .scoreDisplay
+  {
+    font-size:20px;
+  }
 }

@@ -1,3 +1,5 @@
+const maxGames=[15,9];
+
 const players=[
   {
     name:"Γκότσης Ηλίας",
@@ -156,4 +158,4 @@ const players=[
     wins:[0,1],
     loses:[4,1]
   }
-]
+];
