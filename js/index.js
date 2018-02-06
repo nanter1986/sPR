@@ -30,7 +30,7 @@ $(document).ready(function () {
 
   //display
   for(let i=0;i<powerRankings.length;i++){
-    $(".ranks").append("<div class=\"panel panel-info col-xs-12 col-sm-12 col-md-12 col-lg-12 boards\"><div class=\"panel-heading\"><h2>"+(i+1)+"."+powerRankings[i].name+"</h2></div><div class=\"panel-body col-xs-12 col-sm-12 col-md-12 col-lg-12\"><img class=\"col-xs-6 col-sm-6 col-md-4 col-lg-4\" src="+powerRankings[i].image+"><h2 class=\"scoreDisplay\">"+"Power Rankings Score:<br>"+powerRankings[i].score+"</h2></div></div>")
+    $(".ranks").append("<div class=\"panel panel-info col-xs-12 col-sm-12 col-md-12 col-lg-12 boards\"><div class=\"panel-heading\"><h2>"+(i+1)+"."+powerRankings[i].name+"</h2></div><div class=\"panel-body col-xs-12 col-sm-12 col-md-12 col-lg-12\"><img class=\"col-xs-6 col-sm-6 col-md-4 col-lg-4 img-circle\" src="+powerRankings[i].image+"><h2 class=\"scoreDisplay\">"+"Power Rankings Score:<br>"+powerRankings[i].score+"</h2></div></div>")
   }
 
 
