@@ -99,7 +99,7 @@ p {
   vertical-align:middle;
 }
 
-.panel-heading {
+.panel-heading,.panel-footer {
   color: #ebf0f2 !important;
   font-weight: bold !important;
   background-color: rgb(5, 50, 8) !important;
@@ -107,7 +107,7 @@ p {
   transition: background-color 4s;
 }
 
-.panel-heading:hover {
+.panel-heading:hover,.panel-footer:hover {
   background-color: grey !important;
   transition: background-color 4s;
 }
