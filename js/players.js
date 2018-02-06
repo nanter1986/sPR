@@ -142,7 +142,7 @@ const players=[
   },
   {
     name:"Ενέν Ξένια",
-    image:"img/tourovnic.jpg",
+    image:"img/rec.jpg",
     wins:[0,3],
     loses:[5,3]
   },
